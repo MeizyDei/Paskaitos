@@ -1,5 +1,17 @@
 public class BadInputException extends Exception{
-    public BadInputException(String s) {
-        super(s);
+    public BadInputException() {
+        super();
+    }
+    public BadInputException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace){
+        super(message, cause, enableSuppression, writableStackTrace);
+    }
+    public BadInputException(String message, Throwable cause){
+        super(message, cause);
+    }
+    public BadInputException(String message){
+        super(message);
+    }
+    public BadInputException(Throwable cause){
+        super(cause);
     }
 }
