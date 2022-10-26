@@ -28,5 +28,14 @@ public class Main {
                 System.out.println("Sveikinam");
             }
         }
+//        try{
+//            throw new BadInputException("GeeksGeeks");
+//        }catch(BadInputException ex){
+//            System.out.println("Caught");
+//            System.out.println(ex.getMessage());
+//        }
+    }
+    public static void checkForTheWin (int userInput) throws BadInputException{
+
     }
 }
