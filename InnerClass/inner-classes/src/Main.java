@@ -9,4 +9,15 @@ public class Main {
             this.variable = variable;
         }
     }
+
+    public void testInnerClassInMethod(){}
+     class MyClassInMethod {
+        int value;
+        String name;
+
+        public MyClassInMethod(int value) {
+            this.value = value;
+        }
+    }
+    MyClassInMethod example = new MyClassInMethod(1);
 }

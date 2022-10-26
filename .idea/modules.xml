@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/InnerClass/InnerClass.iml" filepath="$PROJECT_DIR$/InnerClass/InnerClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/Oct26.iml" filepath="$PROJECT_DIR$/Oct26.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InnerClass/inner-classes/inner-classes.iml" filepath="$PROJECT_DIR$/InnerClass/inner-classes/inner-classes.iml" />
     </modules>
   </component>
 </project>
